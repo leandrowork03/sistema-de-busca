@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meus projetos 👨🏽‍💻</h1>
+        <img src="img/minhaft.jpg" alt="">
+    </header>
+
+    <section class="container">
+        <input type="text" id="busca" required oninput="first()" placeholder="busca">
+        <select id="status" onchange="first()">
+            <option value="">status</option>
+            <option value="em-andamento">em andamento</option>
+            <option value="pendente">pendente</option>
+            <option value="concluido">concluído</option>
+        </select>
+        <select id="frameWork" onchange="first()">
+            <option value="">frameWork</option>
+            <option value="sim">sim</option>
+            <option value="nao">não</option>
+        </select>
+    </section>
+    <main id="mostrarProjetos"></main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

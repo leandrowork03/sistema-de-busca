@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/4k-ultra-hd-windows-moon-at-night-fgr6svfcbxskfamz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed ;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;   
+}
+input, select{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+main{
+    width:80%;
+    margin: 2% 10%;
+}
+
+.proj{
+    border-radius: 10px;
+    margin: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.605);
+}
+.proj h3, h4{
+    background-color: black;
+    padding:10px;
+    border-bottom: 1px solid white;
+}
+.concluido{
+    color: green;
+}
+.em-andamento{
+    color: yellow;
+}
+.pendente{
+    color: red;
+}
