@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./img/4k-ultra-hd-windows-moon-at-night-fgr6svfcbxskfamz.jpg);
+    background-image: url(./img/pngtree-contrast-color-mobile-wallpaper-hd-image_1510256.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -21,9 +21,32 @@ header{
 }
 
 header img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+}
+header img:hover{
+    box-shadow: 0 0 15px aqua;
+}
+.menu {
+    position: absolute;
+    top: 55px;
+    right: 200px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+    z-index: 999;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
 }
 .container{
     display: flex;
@@ -38,6 +61,7 @@ input, select{
     border: none;
     background-color: black;
     color: aliceblue;
+    border-bottom: 1px solid white;
     padding: 10px;
     border-radius: 10px;
 }
@@ -54,6 +78,7 @@ main{
 }
 .proj h3, h4{
     background-color: black;
+    border-radius: 10px;
     padding:10px;
     border-bottom: 1px solid white;
 }
@@ -66,3 +91,4 @@ main{
 .pendente{
     color: red;
 }
+

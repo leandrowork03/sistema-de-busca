@@ -66,6 +66,22 @@ const tarefas = [
       ]
     }
   ]
+  const toggle = document.getElementById('menuToggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+  });
+
+  // Fecha o menu se clicar fora
+  document.addEventListener('click', (e) => {
+    if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+      menu.style.display = 'none';
+    }
+  });
+
+
+
   function first(){
     const termo = document.getElementById("busca").value.toLowerCase()
     const status = document.getElementById("status").value
