@@ -87,7 +87,7 @@ const tarefas = [
     const container = document.getElementById("mostrarProjetos")
     if(filtrados.length === 0){
       container.innerHTML=`
-      <p>nada encontrado</p>
+      <p>Nada encontrado</p>
       `;
 
       return;
